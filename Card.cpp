@@ -1,10 +1,17 @@
+// Mariel Urbano
+// Class (CECS 282-01)
+// Project Name (Prog 1 – Solitaire Prime)
+// Due Date (9/13/2021)
+//
+// I certify that this program is my own original work. I did not copy any part of this program from
+// any other source. I further certify that I typed each and every line of code in this program
 #include "Card.h"
 #include <iostream>
 #include <string>
 using namespace std;
 
 
-Card::Card()
+Card::Card() 
 {
     r = 'A';
     s = 'S';
@@ -60,3 +67,4 @@ void Card::showCard()
         cout << this->r << su;
     }
 }
+    
